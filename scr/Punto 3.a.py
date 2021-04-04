@@ -106,7 +106,7 @@ cp_analitico=((sumatoria1)*alpha+(sumatoria2)*beta)/calculo_T(alpha,beta,sumator
 print("Cp analitico=",cp_analitico)
 
 
-#HACEMOS UNA FUNCIÓN PARA PODER APROVECHAR AL MÁXIMO LOS VALORES DE CPBETA PARA DISTINTOS H
+#HAGO UNA FUNCIÓN PARA PODER APROVECHAR AL MÁXIMO LOS VALORES DE CPBETA PARA DISTINTOS H
 
 def cpbeta(a,b,e):
     sum1 = 0
@@ -133,7 +133,7 @@ def calcular_h1(a,b):
     return e
 
 
-#IMPRIME LOS CPBETA: DAN TODOS 0. Los comentamos para no imprimir tantas cosas
+#IMPRIME LOS CPBETA: DAN TODOS 0. Los comento para no imprimir tantas cosas
 
 #print("CPBETA:")
 #calcular_h1(alpha,beta)
